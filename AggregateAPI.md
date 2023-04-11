@@ -65,3 +65,28 @@ https://<url>/api/CreatePlayer [POST]
     "timestamp": 1681117805889
 }
 ```
+## 錯誤代碼
+
+| 代碼 | 訊息 | 說明|
+| -------- | -------- | -------- |
+| 0     | success     |      |
+| 101   | player not exist     |      |
+| 201   | create game player fail     |      |
+| 202   | game maintain     |      |
+| 203   | game api unstable (time out more than 10 times)  |      |
+| 204   | unavailable game platform  |      |
+| 205   | game id not exist  |      |
+| 206   | bet record id not exist  |      |
+| 301   | transaction id duplicated  |      |
+| 302   | insufficient credit  |      |
+| 303   | transaction id not exist  |      |
+| 901   | request parameter wrong  |      |
+| 902   | currency incorrect  |      |
+| 903   | login fail  |      |
+| 904   | access denied  |      |
+| 905   | data not exsit  |      |
+| 906   | invalid input  |      |
+| 907   | api requests are too frequent  |      |
+| 998   | unknow fail  |      |
+| 999   | request time out  |      |
+## 多國語系
